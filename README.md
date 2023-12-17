@@ -1,4 +1,4 @@
-# Human_Intent_Prediction
+# Human Intent Prediction
 Repository for the URP project exploring methods for robots to predict human intentions using Graph Neural Networks
 
 
