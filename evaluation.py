@@ -53,8 +53,8 @@ class evaluation:
         idx = 0
 
         #self.model = self.import_model("/home/paternaincomputer/HIP_ws/RNNModel_low_loss")
-        self.import_model("/home/paternaincomputer/HIP_ws/GNN_Model_len_20")
-        #self.import_model("/home/paternaincomputer/HIP_ws/CNN_Model_len_20")
+        self.import_model("/home/paternaincomputer/HIP_ws/Models/GNN_Model_len_20")
+        #self.import_model("/home/paternaincomputer/HIP_ws/Models/CNN_Model_len_20")
 
         print(self.model.summary())
         self.sequences[idx] = self.seq.pad_sequence(self.sequences[idx], len(self.sequences[idx]) + max_len)
